@@ -1,9 +1,43 @@
 body{
-  background-color: 
+  background-color: #39A9C4; 
 }
 
-li{
-  background-color: white;
+ul li{
+  background-color: #FF4F00;
   list-style-type: none;
-  border: 20px solid;
+  border: 5px solid;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+  ul li{
+    background-color: orange;
+    color: #FF1E00;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){
+  ul li{
+    background-color: yellow;
+    color: #FF7F00;
+    width: 45%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px){
+  ul li{
+    background-color: green;
+    color: #00C233;
+    width: 45%;
+    float: left;
+  }
+}
+
+@media screen and (min-width:  ){
+  ul li{
+    background-color: green;
+    color: #00C233;
+  }
 }
